@@ -1,6 +1,6 @@
-# vue-test-utils-jest-example
+# vue-test-utils-ava-example
 
-> An example project using vue-test-utils and jest to run unit tests
+> An example project using vue-test-utils and ava to run unit tests
 
 ## Build Setup
 
