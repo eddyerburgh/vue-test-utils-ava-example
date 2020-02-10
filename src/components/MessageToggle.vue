@@ -23,7 +23,7 @@ export default {
   }),
   methods: {
     toggleMessage () {
-      this.msg = this.msg === 'message' ? 'toggled message' : 'message'
+      this.msg = this.msg === 'default message' ? 'toggled message' : 'default message'
     }
   }
 }
