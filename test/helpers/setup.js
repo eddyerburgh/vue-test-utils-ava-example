@@ -1,3 +1,5 @@
+require('jsdom-global')();
+window.Date = Date;
 const hooks = require('require-extension-hooks')
 
 // Setup browser environment
