@@ -12,6 +12,6 @@ test('renders props.msg when passed', t => {
 
 test('renders default message if not passed a prop', t => {
   const defaultMessage = 'default message'
-  const wrapper = shallow(Message, {context: {}})
+  const wrapper = shallow(Message, { context: {} })
   t.is(wrapper.text(), defaultMessage)
 })
