@@ -10,7 +10,6 @@ require('jsdom-global')()
 window.Date = Date
 
 // Setup browser environment
-require('browser-env')();
 const hooks = require('require-extension-hooks');
 const Vue = require('vue');
 
