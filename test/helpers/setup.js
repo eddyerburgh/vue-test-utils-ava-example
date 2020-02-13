@@ -1,6 +1,13 @@
 // ./test/_setup.js
-require('jsdom-global')();
-window.Date = Date;
+
+// https://github.com/vuejs/vue-test-utils/issues/936
+// from @vue/cli-plugin-unit-mocha/setup.js
+require('jsdom-global')()
+
+// https://github.com/vuejs/vue-test-utils/issues/936
+// better fix for "TypeError: Super expression must either be null or
+// a function" than pinning an old version of prettier.
+window.Date = Date
 
 // Setup browser environment
 require('browser-env')();
