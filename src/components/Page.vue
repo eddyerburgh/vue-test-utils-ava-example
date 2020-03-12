@@ -1,19 +1,19 @@
 <template>
-    <div>
-        <message-toggle />
-        <list :items="['list item 1', 'listen item 2']" />
-    </div>
+  <div>
+    <message-toggle />
+    <list :items="['list item 1', 'listen item 2']" />
+  </div>
 </template>
 
 <script>
-    import MessageToggle from './MessageToggle'
-    import List from './List'
+import MessageToggle from './MessageToggle'
+import List from './List'
 
-    export default {
-      name: 'page',
-      components: {
-        MessageToggle,
-        List
-      }
-    }
+export default {
+  name: 'Page',
+  components: {
+    MessageToggle,
+    List
+  }
+}
 </script>
